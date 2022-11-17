@@ -1,9 +1,38 @@
 body {
-    background-color: lime;
+    background-color: black;
+    font-family: 'Fragment Mono', monospace;
+   
+}
+
+h1 {
+    color:white;
+    
+/*     font-family: 'Fragment Mono', monospace;*/
+    text-align: center;
+  text-shadow: 2px 2px #5bbcfc;
 }
 
 img {
     width: 200px;
     height: 200px;
 /*    transition: width 2s, height 2s;*/
+}
+
+.text1 {
+       color:white;
+    text-align: center;
+    border-width:2px; border-style:solid; border-color:#a020f0; padding: 2em;
+/*     font-family: 'Fragment Mono', monospace;*/
+}
+
+
+/*page2*/
+
+p {
+      color:white;
+    position:sticky;
+    border-width:2px; border-style:solid; border-color:#a020f0; padding: 2em;
+    left: 40%;
+    
+    
 }
