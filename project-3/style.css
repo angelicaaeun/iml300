@@ -10,6 +10,11 @@ font-family: 'Gochi Hand', cursive;
     transform: translate(0, -50%);
 }
 
+a {
+  text-decoration: none;
+    color: indianred;
+}
+
 .statement1 {
     font-size: 20px;
     color: black;
@@ -31,12 +36,12 @@ font-family: 'Gochi Hand', cursive;
 /*page-3*/
 
 .pg-3 {
-    background-image:url(asset/eye-blink.gif)
+    background-image:url('asset/eye-blink.gif');
     background-size:cover;
     
 }
 .statement3 {
-  color: black;
+  color: whitesmoke;
   width: 30ch;
   animation: typing 2s steps(15), blink .5s;
   white-space: nowrap;
@@ -101,7 +106,7 @@ animation: 4s anim-stickynote ease infinite;}
     overflow: hidden;
     white-space: nowrap;
     letter-spacing: .1em;
-    animation: typing 3.5s steps(30, end)
+    animation: typing 3s steps(25, end)
 }
 
 /* The typing effect */
@@ -155,21 +160,22 @@ animation: 4s anim-stickynote ease infinite;}
 }
 
 .toast {
-  transition: width 0.25s ease-in-out;
+/*  transition: width 0.25s ease-in-out;*/
+     transition: 1s ease-in-out;
 }
 
 .toast:hover {
-  transform: rotate(360deg);
-  transform: scale(1.2);
+    rotate: 360deg;
+    scale: 1.2;
 }
 
 .sugar {
-  transition: width 0.25s ease-in-out;
+transition: 1s ease-in-out;
 }
 
 .sugar:hover {
-  transform: rotate(360deg);
-  transform: scale(1.2);
+  rotate: 360deg;
+    scale: 1.2;
 }
 
 .icecream {
@@ -192,6 +198,57 @@ animation: 4s anim-stickynote ease infinite;}
   transform: scale(1.2);
 }
 
+.water {
+    background-image:url(asset/rain.gif);
+    background-repeat:space;
+}
+
+/*page-8*/
+
+.candy {
+float: left;
+  height: 200px;
+  width: 235px;
+}
+
+.leaf {
+   float: left;
+  height: 200px;
+  width: 235px; 
+}
+
+/*page-10*/
+
+.openlips {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+      transition: 1s ease-in-out;
+    object-position: 25% 75%;
+     max-width: 30%;
+}
+
+.openlips:hover {
+    rotate: 360deg;
+    scale: 4.5;
+}
+
+/*page-11*/
+
+.pg-11 {
+  background-image:url(asset/kiss.gif);
+    background-repeat:space;
+    background-size:cover;
+}
+
+.statement11 {
+     color: whitesmoke;
+  width: 30ch;
+  animation: typing 2s steps(15), blink .5s;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 1.5em;
+}
 
 /*page-13*/
 
@@ -202,7 +259,7 @@ animation: 4s anim-stickynote ease infinite;}
 .statement15 {
     font-size:1.3em;
     animation: fadeOut ease 8s;
-    letter-spacing: .1em;
+    letter-spacing: .15em;
     
 }
 
@@ -234,3 +291,49 @@ animation: 4s anim-stickynote ease infinite;}
   100% {text-shadow: 0 0 black;}
 }
 
+/*page-14*/
+.pg-14 {
+   background-image:url(asset/self-reflection.gif);
+    background-size: cover;
+}
+
+/*page-16*/
+
+.cam {
+/*    transform: rotate(-25deg);*/
+}
+
+.cam:hover {
+  animation: vibrate 7s;
+  animation-iteration-count: infinite;
+    scale: 1.2;
+}
+
+/*   transform: rotate(-25deg);*/
+    @keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-40deg); }
+  20% { transform: rotate(20deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(20deg); }
+  50% { transform: rotate(-40deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-20deg); }
+  80% { transform: rotate(40deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-20deg); }
+}
+
+/*page-20*/
+.statement20 {
+     color: saddlebrown;
+  width: 34ch;
+  animation: typing 3s steps(15),blink .5s;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+   letter-spacing: .3em;
+
+    
+}
