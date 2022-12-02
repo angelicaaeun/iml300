@@ -1,0 +1,62 @@
+body{
+background-image: linear-gradient(#F6D5F7, #FBE9D7);
+font-family: 'Jost', sans-serif;
+text-align: center;
+
+}
+
+a {
+      text-decoration: none;
+    color: #9971C;
+    text-shadow: #FC0 2px 0 20px;
+}
+
+h1 {
+text-decoration: underline dotted;
+
+}
+
+.name {
+    font-size: 1.4em;
+    -webkit-text-stroke: 0.9px #301934;
+    letter-spacing: 1.9px;
+}
+h2 {
+  text-align: left;
+}
+
+.description {
+/*    display: flex;*/
+  /*   border: 1px solid red; */
+    text-align: left;
+    width: 500px;
+    margin: auto;
+}
+.container {
+    display: flex;
+    text-align: left;
+  /*   border: 1px solid red; */
+    width: 500px;
+    margin: auto;
+}
+
+.links {
+     text-align: left;
+    width: 250px;
+    margin: auto;
+}
+
+.headers {
+ animation: typing 3s steps(25, end);
+font-size: 1.2em;
+text-decoration: underline dotted;
+    -webkit-text-stroke: 0.4px #301934;
+    letter-spacing: 1.5px;
+  -webkit-text-fill-color: white;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
