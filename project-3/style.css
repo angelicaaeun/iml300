@@ -348,6 +348,20 @@ float: left;
   border-right: 3px solid;
   font-size: 2.5em;
    letter-spacing: .3em;
+}
 
-    
+.aboutme {
+       font-size: 1.6em;
+       letter-spacing: .3em;
+      text-shadow: 0.3px 0.2px 0px #AA4A44, 0 0 25px #AA4A44, 0 0 0.7px #AA4A44;
+    text-align: center;
+}
+
+.closure {
+     font-size: 1.6em;
+       letter-spacing: .3em;
+  border: 1px solid #beaed2;
+    padding: 30px;
+  text-shadow: 0.3px 0.2px 0px white, 0 0 25px purple, 0 0 0.7px purple;
+    text-align: center;
 }

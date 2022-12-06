@@ -8,10 +8,9 @@ function setup() {
 }
 
 function draw() {
-    createCanvas(600, 600);
+    createCanvas(800, 400);
   background(51);
-  translate(map(mouseX, 0, width, 0.5 + ir, 0.5 - ir) * width, map(mouseY, 0, height, 0.5 + ir, 0.5 - ir) * height);
-
+    
   stars.forEach(p => {
     p.update(speed);
     p.show();
